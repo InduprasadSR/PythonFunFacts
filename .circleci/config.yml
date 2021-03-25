@@ -11,7 +11,7 @@ jobs:
       - python/load-cache
       - python/install-deps
       - run:
-          command: python ./Fact_1.py
+          command: python ./Fact_2.py
           
 workflows:
   main:
