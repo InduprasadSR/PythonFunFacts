@@ -10,11 +10,9 @@ jobs:
       - checkout
       - python/load-cache
       - python/install-deps
-      - python/save-cache
       - run:
-          command: ./Fact_1.py test
+          command: ./Fact_1.py
           name: Test
-
 workflows:
   main:
     jobs:
